@@ -4951,7 +4951,7 @@ self.instance.move(ePoint(int(deskwidth - newwidth)//2,int(deskheight - newheigh
     <ePixmap name="" position="1338,620" size="180,180" zPosition="1" pixmap="main/ico/script.png" transparent="1" alphatest="on" />
     <eLabel backgroundGradient="grdl,grdd,horizontal" cornerRadius="6" position="1350,784" size="330,10" />
   </screen>
-  <screen name="SwapManager" position="fill" title="Swapp Manager" backgroundColor="transparent" flags="wfNoBorder">
+  <screen name="Swap" position="fill" title="Swap Manager" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="titletemp" />
     <panel name="menutemp" />
     <panel name="button1temp" />
@@ -5422,19 +5422,6 @@ self.instance.move(ePoint(int(deskwidth - newwidth)//2,int(deskheight - newheigh
     <widget name="config" position="250,230" size="1000,700" itemHeight="50" enableWrapAround="1" transparent="1" font="Regularn; 30" />
     <ePixmap name="" position="1338,620" size="180,180" zPosition="1" pixmap="main/ico/screenname.png" transparent="1" alphatest="on" />
     <eLabel backgroundGradient="grdl,grdd,horizontal" cornerRadius="6" position="1350,784" size="330,10" />
-  </screen>
-  <screen name="Swap" position="fill" title="Swapp Manager" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="titletemp" />
-    <panel name="menutemp" />
-    <widget name="canceltext" position="306,960" size="250,45" zPosition="11" font="Regularn; 26" halign="left" backgroundColor="background90" transparent="1" foregroundColor="white" />
-    <widget name="oktext" position="610,960" size="250,45" zPosition="11" font="Regularn; 26" halign="left" backgroundColor="background90" transparent="1" foregroundColor="white" />
-    <ePixmap name="" position="256,960" size="46,46" zPosition="99" pixmap="buttons/red.png" alphatest="on" transparent="0" />
-    <ePixmap name="" position="560,960" size="46,46" zPosition="99" pixmap="buttons/green.png" alphatest="on" transparent="0" />
-    <widget name="config" position="250,230" size="1000,600" scrollbarMode="showOnDemand" font="Regularn; 30" itemHeight="50" transparent="1" />
-    <widget name="conn" position="250,840" size="1260,35" font="Regularn;27" halign="left" valign="center" transparent="1" backgroundColor="background90" />
-    <ePixmap name="" position="1338,620" size="180,180" zPosition="1" pixmap="main/ico/swapp.png" transparent="1" alphatest="on" />
-    <eLabel backgroundGradient="grdl,grdd,horizontal" cornerRadius="6" position="1350,784" size="330,10" />
-    <widget alphatest="blend" name="HelpWindow" position="center,10" size="906,188" transparent="1" zPosition="99" font="Regularn; 30" halign="center" />
   </screen>
   <screen name="SetupSummary" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="titletemp" />
