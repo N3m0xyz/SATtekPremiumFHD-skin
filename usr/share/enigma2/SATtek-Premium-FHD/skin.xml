@@ -4764,9 +4764,9 @@ MultiContentEntryText(pos = (80,0),size = (900,50),font=0,flags = RT_HALIGN_LEFT
     <widget name="Picture" position="1223,671" size="454,255" alphatest="blend" />
     <widget name="config" position="250,230" size="900,700" itemHeight="50" enableWrapAround="1" transparent="1" font="Regularn; 28" />
   </screen>
-  <screen name="AtileHD_About" position="center,center" size="400,170" title="SATtek-Premium-FHD">
-    <eLabel text="MNASR" position="center,0" size="210,50" font="Regularn; 42" halign="center" backgroundColor="background90" foregroundColor="mainskincolor" />
-    <ePixmap position="center,50" size="210,120" pixmap="picon_default.png" alphatest="blend" zPosition="10" />
+  <screen name="AtileHD_About" position="center,center" size="600,350" title="SATtek-Premium-FHD">
+    <eLabel text="N3w0XYZ" position="center,0" size="417,50" font="Regularn; 42" halign="center" backgroundColor="background90" foregroundColor="mainskincolor" />
+    <ePixmap position="center,50" size="417,250" pixmap="picon_default.png" alphatest="blend" zPosition="10" />
   </screen>
   <screen name="MessageBox" position="365,320" size="1190,310" zPosition="1" title="Message" backgroundColor="background90" flags="wfBorder">
     <!--openatv-->
