@@ -335,17 +335,17 @@
     <convert type="EventName">ExtendedDescription</convert>
   </widget>
   <widget source="session.Event_Now" render="Label" position="374,308" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="yellow">
-  <convert type="EventName">GenreList</convert>
-</widget>
+    <convert type="EventName">Genre</convert>
+  </widget>
   <widget source="session.Event_Now" render="Label" position="374,268" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="green">
-  <convert type="EventName">SmallRating</convert>
+    <convert type="EventName">Rating</convert>
 </widget>
   <widget source="session.Event_Next" render="Label" position="970,308" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="yellow">
-  <convert type="EventName">GenreList</convert>
-</widget>
+    <convert type="EventName">Genre</convert>
+  </widget>
   <widget source="session.Event_Next" render="Label" position="970,268" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="green">
-  <convert type="EventName">SmallRating</convert>
-</widget>
+    <convert type="EventName">Rating</convert>
+  </widget>
   <widget source="session.Event_Now" render="PremiumPosterX" position="40,460" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="mainskincolor" />
   <widget source="session.Event_Now" render="PremiumPosterX" nexts="1" position="1640,460" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="mainskincolor" />
   <widget source="session.Event_Now" render="xtraPoster" position="40,460" size="240,360" cornerRadius="14" zPosition="66" borderWidth="1" borderColor="mainskincolor" />
