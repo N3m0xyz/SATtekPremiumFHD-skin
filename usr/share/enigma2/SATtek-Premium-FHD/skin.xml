@@ -319,46 +319,43 @@
     <widget source="session.Event_Next" render="xtraPoster" position="1640,460" size="240,360" cornerRadius="14" zPosition="66" borderWidth="1" borderColor="mainskincolor" />
   </screen>
   <screen name="SecondInfoBar" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="infobartemp" />
-    <panel name="infobarcrypt" />
-    <ePixmap name="" position="center,202" size="1200,600" transparent="1" alphatest="off" pixmap="main/2ndIB.png" zPosition="-9" />
-    <widget source="session.Event_Now" render="Label" position="374,222" size="576,40" font="calibri; 32" halign="center" valign="center" transparent="1" backgroundColor="background90" noWrap="1" zPosition="2" foregroundColor="gold">
-      <convert type="EventName">Name</convert>
-    </widget>
-    <widget source="session.Event_Next" render="Label" position="968,222" size="576,40" font="calibri; 32" halign="center" valign="center" transparent="1" backgroundColor="background90" noWrap="1" zPosition="2" foregroundColor="gold">
-      <convert type="EventName">Name</convert>
-    </widget>
-    <widget source="session.Event_Now" render="PremiumRunningText" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" position="374,360" size="576,424" halign="center" font="calibri; 28" transparent="1" backgroundColor="background90" valign="top" zPosition="1" foregroundColor="white">
-      <convert type="EventName">ExtendedDescription</convert>
-    </widget>
-    <widget source="session.Event_Next" render="PremiumRunningText" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" position="968,360" size="576,424" halign="center" font="calibri; 28" transparent="1" backgroundColor="background90" valign="top" zPosition="1">
-      <convert type="EventName">ExtendedDescription</convert>
-    </widget>
-    <widget source="session.Event_Now" render="Label" position="374,308" size="576,34" halign="right" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="1" foregroundColor="yellow">
-      <convert type="EventName">Genre</convert>
-    </widget>
-    <widget source="session.Event_Now" render="Label" position="374,268" size="576,34" halign="left" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="1" foregroundColor="green">
-      <convert type="EventName">Rating</convert>
-    </widget>
-    <widget source="session.Event_Next" render="Label" position="970,308" size="576,34" halign="right" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="1" foregroundColor="yellow">
-      <convert type="EventName">Genre</convert>
-    </widget>
-    <widget source="session.Event_Next" render="Label" position="970,268" size="576,34" halign="left" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="1" foregroundColor="green">
-      <convert type="EventName">Rating</convert>
-    </widget>
-    <widget foregroundColor="green" backgroundColor="background90" font="Regularn; 24" halign="left" position="1540,1008" render="Label" size="106,34" source="session.FrontendStatus" transparent="1" valign="center" zPosition="9">
-      <convert type="PremiumFrontendInfo">SNRdB</convert>
-    </widget>
-    <widget source="session.Event_Now" render="PremiumPosterX" position="40,460" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="mainskincolor" />
-    <widget source="session.Event_Now" render="PremiumPosterX" nexts="1" position="1640,460" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="mainskincolor" />
-    <widget source="session.Event_Now" render="xtraPoster" position="40,460" size="240,360" cornerRadius="14" zPosition="66" borderWidth="1" borderColor="mainskincolor" />
-    <widget source="session.Event_Next" render="xtraPoster" position="1640,460" size="240,360" cornerRadius="14" zPosition="66" borderWidth="1" borderColor="mainskincolor" />
-    <widget source="session.CurrentService" render="Label" position="370,752" size="1180,32" font="calibri; 24" backgroundColor="background90" transparent="1" halign="center" zPosition="99" valign="center" noWrap="1">
-      <convert type="PremiumStreamInfo">StreamType</convert>
-      <convert type="PremiumStreamInfo">StreamUrl</convert>
-      <convert type="ConverterRotator">3</convert>
-    </widget>
-  </screen>
+  <panel name="infobartemp" />
+  <panel name="infobarcrypt" />
+  <ePixmap name="" position="center,202" size="1200,600" transparent="1" alphatest="off" pixmap="main/2ndIB.png" zPosition="-9" />
+  <widget source="session.Event_Now" render="Label" position="374,222" size="576,40" font="calibri; 32" halign="center" valign="center" transparent="1" backgroundColor="background90" noWrap="1" zPosition="2" foregroundColor="gold">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="968,222" size="576,40" font="calibri; 32" halign="center" valign="center" transparent="1" backgroundColor="background90" noWrap="1" zPosition="2" foregroundColor="gold">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="session.Event_Now" render="PremiumRunningText" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" position="374,360" size="576,424" halign="left" font="calibri; 28" transparent="1" backgroundColor="background90" valign="top" zPosition="1" foregroundColor="white">
+    <convert type="EventName">ExtendedDescription</convert>
+  </widget>
+  <widget source="session.Event_Next" render="PremiumRunningText" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" position="968,360" size="576,424" halign="right" font="calibri; 28" transparent="1" backgroundColor="background90" valign="top" zPosition="1">
+    <convert type="EventName">ExtendedDescription</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="374,308" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="yellow">
+  <convert type="EventName">GenreList</convert>
+</widget>
+  <widget source="session.Event_Now" render="Label" position="374,268" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="green">
+  <convert type="EventName">SmallRating</convert>
+</widget>
+  <widget source="session.Event_Next" render="Label" position="970,308" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="yellow">
+  <convert type="EventName">GenreList</convert>
+</widget>
+  <widget source="session.Event_Next" render="Label" position="970,268" size="576,34" halign="center" font="Regularn; 26" transparent="1" backgroundColor="background90" valign="center" zPosition="2" foregroundColor="green">
+  <convert type="EventName">SmallRating</convert>
+</widget>
+  <widget source="session.Event_Now" render="PremiumPosterX" position="40,460" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="mainskincolor" />
+  <widget source="session.Event_Now" render="PremiumPosterX" nexts="1" position="1640,460" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="mainskincolor" />
+  <widget source="session.Event_Now" render="xtraPoster" position="40,460" size="240,360" cornerRadius="14" zPosition="66" borderWidth="1" borderColor="mainskincolor" />
+  <widget source="session.Event_Next" render="xtraPoster" position="1640,460" size="240,360" cornerRadius="14" zPosition="66" borderWidth="1" borderColor="mainskincolor" />
+  <widget source="session.CurrentService" render="Label" position="370,752" size="1180,32" font="calibri; 24" backgroundColor="background90" transparent="1" halign="center" zPosition="99" valign="center" noWrap="1">
+    <convert type="PremiumStreamInfo">StreamType</convert>
+    <convert type="PremiumStreamInfo">StreamUrl</convert>
+    <convert type="ConverterRotator">3</convert>
+  </widget>
+</screen>
   <screen name="ChannelSelection" position="0,0" size="1920,1080" title="Channel Selection" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="timedatef" />
     <widget source="ServiceEvent" render="PremiumSingleEpgList" position="1150,747" size="750,146" noWrap="1" font="Regularn;28" backgroundColor="background90" foregroundColor="hellgreen" transparent="1" />

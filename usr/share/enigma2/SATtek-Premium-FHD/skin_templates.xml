@@ -291,7 +291,7 @@
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Format:- %H:%M</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="1086,1008" zPosition="1" size="455,40" font="Regularn; 23" halign="left" backgroundColor="background90" transparent="1" valign="center">
+    <widget source="session.CurrentService" render="Label" position="1086,1008" zPosition="1" size="467,40" font="Regularn; 23" halign="left" backgroundColor="background90" transparent="1" valign="center">
       <convert type="PremiumServName2">%O %F %p %Y %f %M</convert>
     </widget>
     <widget source="session.RecordState" render="Pixmap" pixmap="main/rec1.png" position="22,849" size="34,34" zPosition="2" alphatest="blend" transparent="1">
@@ -505,7 +505,7 @@
     <widget source="session.CurrentService" render="Label" position="962,926" size="450,30" font="Regularn; 22" halign="center" zPosition="9" backgroundColor="background90" transparent="1" text="campure2" valign="center" noWrap="1" foregroundColor="white">
       <convert type="PremiumEcmInfo">emuname</convert>
     </widget>
-    <widget foregroundColor="green" backgroundColor="background90" font="Regularn; 24" halign="left" position="1540,1008" render="Label" size="106,34" source="session.FrontendStatus" transparent="1" valign="center" zPosition="9">
+    <widget foregroundColor="green" backgroundColor="background90" font="Regularn; 24" halign="left" position="1555,1008" render="Label" size="90,34" source="session.FrontendStatus" transparent="1" valign="center" zPosition="9">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
   </screen>
